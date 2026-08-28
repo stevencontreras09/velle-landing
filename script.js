@@ -194,9 +194,9 @@ document.addEventListener('DOMContentLoaded', () => {
       waMessage += `Quisiera recibir asesoría y conocer más sobre el catálogo actual.`;
 
       const encodedMessage = encodeURIComponent(waMessage);
-      const waUrl = `https://wa.me/?text=${encodedMessage}`;
+      const waUrl = `https://wa.me/18098180679?text=${encodedMessage}`;
 
-      // Abrir WhatsApp en nueva pestaña
+      // Abrir WhatsApp directamente con el vendedor
       window.open(waUrl, '_blank');
 
       // Feedback visual en el botón
